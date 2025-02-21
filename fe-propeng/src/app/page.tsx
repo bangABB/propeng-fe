@@ -49,6 +49,7 @@ export default function LoginPage() {
                 setError(errorData.message || "Login failed. Please check your credentials.");
             }
         } catch (err) {
+            console.error(err);
             setError("An error occurred. Please try again.");
         } finally {
             setLoading(false);
