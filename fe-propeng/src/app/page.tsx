@@ -43,6 +43,7 @@ export default function LoginPage() {
                 }
 
                 // Redirect to dashboard
+                //wohooo
                 router.push("/dashboard");
             } else {
                 const errorData = await res.json();
